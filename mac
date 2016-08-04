@@ -128,6 +128,7 @@ brew "libyaml" # should come after openssl
 brew "node"
 brew "rbenv"
 brew "ruby-build"
+brew "elixir"
 
 # Databases
 brew "postgres", restart_service: true
