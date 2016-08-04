@@ -134,6 +134,9 @@ brew "elixir"
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
 
+# Browser
+brew "Caskroom/versions/google-chrome-dev"
+
 EOF
 
 fancy_echo "Configuring Ruby ..."
