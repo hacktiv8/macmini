@@ -132,6 +132,7 @@ brew "ruby-build"
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
+
 EOF
 
 fancy_echo "Configuring Ruby ..."
@@ -154,6 +155,7 @@ gem update --system
 gem_install_or_update 'bundler'
 number_of_cores=$(sysctl -n hw.ncpu)
 bundle config --global jobs $((number_of_cores - 1))
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 if [ -f "$HOME/.laptop.local" ]; then
   fancy_echo "Running your customizations from ~/.laptop.local ..."
