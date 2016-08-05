@@ -133,6 +133,7 @@ brew "elixir"
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
+brew "mongodb", restart_service: true
 
 EOF
 
