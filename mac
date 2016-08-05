@@ -165,6 +165,7 @@ brew cask install postgres
 brew cask install slack
 brew cask install docker
 brew cask install postman
+brew cask install mongodb
 
 if [ -f "$HOME/.laptop.local" ]; then
   fancy_echo "Running your customizations from ~/.laptop.local ..."
