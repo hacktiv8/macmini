@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf /Users/student
+cp -R /Users/studentclean /Users/student
+chmod -R 777 /Users/student
