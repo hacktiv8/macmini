@@ -1,11 +1,9 @@
-Laptop
-======
+Mac Mini
+========
 
-Laptop is a script to set up an OS X laptop for web development.
-
+This is a script to set up an OS X machine, geared for web development.
 It can be run multiple times on the same machine safely.
-It installs, upgrades, or skips packages
-based on what is already installed on the machine.
+It installs, upgrades, or skips packages based on what is already installed on the machine.
 
 Requirements
 ------------
@@ -25,9 +23,9 @@ Install
 Download, review, then execute the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/hacktiv8/macmini/master/mac
 less mac
-sh mac 2>&1 | tee ~/laptop.log
+sh mac 2>&1 | tee ~/macmini.log
 ```
 
 Optionally, [install thoughtbot/dotfiles][dotfiles].
@@ -37,11 +35,8 @@ Optionally, [install thoughtbot/dotfiles][dotfiles].
 Debugging
 ---------
 
-Your last Laptop run will be saved to `~/laptop.log`.
+Your last run will be saved to `~/macmini.log`.
 Read through it to see if you can debug the issue yourself.
-If not, copy the lines where the script failed into a
-[new GitHub Issue](https://github.com/thoughtbot/laptop/issues/new) for us.
-Or, attach the whole log file as an attachment.
 
 What it sets up
 ---------------
