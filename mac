@@ -158,6 +158,13 @@ number_of_cores=$(sysctl -n hw.ncpu)
 bundle config --global jobs $((number_of_cores - 1))
 brew cask install google-chrome
 brew cask install atom
+brew cask install sublime-text
+brew cask install android-studio
+brew cask install robomongo
+brew cask install postgres
+brew cask install slack
+brew cask install docker
+brew cask install postman
 
 if [ -f "$HOME/.laptop.local" ]; then
   fancy_echo "Running your customizations from ~/.laptop.local ..."
