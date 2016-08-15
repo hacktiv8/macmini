@@ -167,4 +167,26 @@ can be used in your `~/.laptop.local`.
 See the [wiki](https://github.com/thoughtbot/laptop/wiki)
 for more customization examples.
 
+Setting Up Cleaning Script
+--------------------------
 
+
+Open up crontab as root.
+
+```text
+> sudo crontab -e
+```
+
+Add this line into crontab
+
+`0 23 * * * /usr/local/bin/clean.sh`
+
+to run cleaners exactly on 23:00 every night.
+
+Don't forget to copy `clean.sh` file into `/usr/local/bin/clean.sh`.
+
+```text
+> cp clean.sh /usr/local/bin/
+```
+
+One more, unzip and move it to `/Users/` 
