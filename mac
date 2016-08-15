@@ -172,6 +172,7 @@ brew cask install slack
 brew cask install docker
 brew cask install postman
 brew cask install mongodb
+brew cask install iterm2
 
 if [ -f "$HOME/.laptop.local" ]; then
   fancy_echo "Running your customizations from ~/.laptop.local ..."
