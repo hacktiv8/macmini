@@ -170,8 +170,7 @@ for more customization examples.
 Setting Up Cleaning Script
 --------------------------
 
-
-Open up crontab as root.
+Clone this repo then open up crontab as root.
 
 ```text
 > sudo crontab -e
