@@ -183,7 +183,7 @@ Add this line into crontab
 
 to run cleaners exactly on 23:00 every night.
 
-Don't forget to copy `clean.sh` file into `/usr/local/bin/clean.sh`.
+Edit file `clean.sh` and change the `USER` variable to for example `hacktiv8-13` and then copy `clean.sh` file into `/usr/local/bin/clean.sh`.
 
 ```text
 > cp clean.sh /usr/local/bin/
