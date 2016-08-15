@@ -189,4 +189,9 @@ Don't forget to copy `clean.sh` file into `/usr/local/bin/clean.sh`.
 > cp clean.sh /usr/local/bin/
 ```
 
-One more, unzip and move it to `/Users/` 
+One more, unzip `studentclean.tar.gz` and move it to `/Users/` 
+
+```text
+> sudo cp -R studentclean /Users
+```
+
