@@ -28,9 +28,6 @@ less mac
 sh mac 2>&1 | tee ~/macmini.log
 ```
 
-Optionally, [install thoughtbot/dotfiles][dotfiles].
-
-[dotfiles]: https://github.com/thoughtbot/dotfiles#install
 
 Debugging
 ---------
@@ -104,13 +101,16 @@ Programming languages and configuration:
 [Ruby Build]: https://github.com/sstephenson/ruby-build
 [Ruby]: https://www.ruby-lang.org/en/
 
+
 Databases:
 
 * [Postgres] for storing relational data
 * [Redis] for storing key-value data
+* [MongoDB] for document-based database
 
 [Postgres]: http://www.postgresql.org/
 [Redis]: http://redis.io/
+[Mongodb]: https://www.mongodb.com/
 
 It should take less than 15 minutes to install (depends on your machine).
 
@@ -167,49 +167,4 @@ can be used in your `~/.laptop.local`.
 See the [wiki](https://github.com/thoughtbot/laptop/wiki)
 for more customization examples.
 
-Contributing
-------------
 
-Edit the `mac` file.
-Document in the `README.md` file.
-Follow shell style guidelines by using [ShellCheck] and [Syntastic].
-
-```sh
-brew install shellcheck
-```
-
-[ShellCheck]: http://www.shellcheck.net/about.html
-[Syntastic]: https://github.com/scrooloose/syntastic
-
-Thank you, [contributors]!
-
-[contributors]: https://github.com/thoughtbot/laptop/graphs/contributors
-
-By participating in this project,
-you agree to abide by the thoughtbot [code of conduct].
-
-[code of conduct]: https://thoughtbot.com/open-source-code-of-conduct
-
-License
--------
-
-Laptop is © 2011-2016 thoughtbot, inc.
-It is free software,
-and may be redistributed under the terms specified in the [LICENSE] file.
-
-[LICENSE]: LICENSE
-
-About thoughtbot
-----------------
-
-![thoughtbot](https://thoughtbot.com/logo.png)
-
-Laptop is maintained and funded by thoughtbot, inc.
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-We are passionate about open source software.
-See [our other projects][community].
-We are [available for hire][hire].
-
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com?utm_source=github
