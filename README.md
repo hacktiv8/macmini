@@ -192,6 +192,7 @@ Edit file `clean.sh` and change the `USER` variable to for example `hacktiv8-13`
 One more, unzip `studentclean.tar.gz` and move it to `/Users/` 
 
 ```text
+> tar xzfv studentclean.tar.gz
 > sudo cp -R studentclean /Users
 ```
 
