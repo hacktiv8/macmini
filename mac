@@ -160,6 +160,7 @@ number_of_cores=$(sysctl -n hw.ncpu)
 bundle config --global jobs $((number_of_cores - 1))
 
 # Custom installs
+brew cask install java
 brew install mongo
 brew cask install google-chrome
 brew cask install atom
