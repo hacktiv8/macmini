@@ -195,3 +195,4 @@ git clone https://github.com/Devbootcamp/set-git-user.git
 cd set-git-user
 ./install
 
+npm install -g babel-cli
