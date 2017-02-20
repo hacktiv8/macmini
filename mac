@@ -136,6 +136,9 @@ brew "postgres", restart_service: true
 brew "redis", restart_service: true
 brew "mongodb", restart_service: true
 
+# React Native
+brew "watchman"
+
 EOF
 
 fancy_echo "Configuring Ruby ..."
