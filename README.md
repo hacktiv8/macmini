@@ -28,6 +28,24 @@ less mac
 sh mac 2>&1 | tee ~/macmini.log
 ```
 
+Testing Babel, GraphQL, MongoDB
+----------------------
+
+```sh
+curl --remote-name https://raw.githubusercontent.com/hacktiv8/macmini/master/test-drive.sh
+sh test-drive.sh
+```
+
+Testing React Native
+--------------------
+
+```sh
+curl --remote-name https://raw.githubusercontent.com/hacktiv8/macmini/master/react-native.sh
+sh react-native.sh
+```
+
+Then run through this [getting started](https://facebook.github.io/react-native/docs/getting-started.html#content).
+
 
 Debugging
 ---------
