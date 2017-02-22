@@ -38,7 +38,7 @@ sh test-drive.sh
 
 Testing React Native
 --------------------
-
+Download xcode: `scp "hacktiv8@hacktiv8-4.local:/Users/hacktiv8/Downloads/X*" ./`
 ```sh
 curl --remote-name https://raw.githubusercontent.com/hacktiv8/macmini/master/react-native.sh
 sh react-native.sh
